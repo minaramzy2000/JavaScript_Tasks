@@ -16,11 +16,11 @@
     console.log(`Div = ${div}`);
     console.log(`Mod = ${mod}`);
 
-
+// Find Rectangle's Area
 const length = parseFloat(prompt("Enter the Length of the rectangle"));
 const width = parseFloat(prompt("Enter the Width of the rectangle"));
 console.log(`Area of rectangle = ${length * width}`)
 
-
+// Find Diameter , Circumference , Araea of a Circle 
 const radius = parseFloat(prompt("Enter the Rasius of the circle"));
 console.log(`The Diameter = ${radius*2} | The circumference = ${2* 3.14 * radius} | The Area = ${3.14 * radius * radius}`)
